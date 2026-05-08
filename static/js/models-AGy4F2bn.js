@@ -1,1 +1,0 @@
-import{T as e}from"./index-DDccdvju.js";var t=t=>e.request(`get`,`/models/getModel/`+t),n=t=>e.request(`patch`,`/models`,{data:t}),r=t=>e.request(`post`,`/models`,{data:t}),i=(t,n)=>e.request(`put`,`/models`,{data:{id:t,data:n}}),a=t=>e.request(`delete`,`/models`,{data:{ids:t}});export{n as a,t as i,a as n,i as r,r as t};

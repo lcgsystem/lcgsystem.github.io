@@ -1,1 +1,0 @@
-import{T as e}from"./index-DDccdvju.js";var t=t=>e.request(`patch`,`/index/notice`,{data:t}),n=t=>e.request(`patch`,`/index/welcome`,{data:t});export{t as n,n as t};
