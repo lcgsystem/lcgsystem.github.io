@@ -1,0 +1,1 @@
+import{ht as e}from"./vue.runtime.esm-bundler-DdN1Zxhu.js";var t=/^(?![0-9]+$)(?![a-z]+$)(?![A-Z]+$)(?!([^(0-9a-zA-Z)]|[()])+$)(?!^.*[\u4E00-\u9FA5].*$)([^(0-9a-zA-Z)]|[()]|[a-z]|[A-Z]|[0-9]){6,12}$/,n=e({password:[{validator:(e,n,r)=>{n===``?r(Error(`请输入密码`)):t.test(n)?r():r(Error(`密码格式应为6-12位数字、字母、符号的任意两种组合`))},trigger:`blur`}]});export{n,t};
