@@ -1,0 +1,1 @@
+import{v as s}from"./index-BaCEyGWA.js";const o=/^(?![0-9]+$)(?![a-z]+$)(?![A-Z]+$)(?!([^(0-9a-zA-Z)]|[()])+$)(?!^.*[\u4E00-\u9FA5].*$)([^(0-9a-zA-Z)]|[()]|[a-z]|[A-Z]|[0-9]){6,12}$/,a=s({password:[{validator:(t,e,r)=>{e===""?r(new Error("请输入密码")):o.test(e)?r():r(new Error("密码格式应为6-12位数字、字母、符号的任意两种组合"))},trigger:"blur"}]});export{o as R,a as l};
