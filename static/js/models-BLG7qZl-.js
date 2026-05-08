@@ -1,0 +1,1 @@
+import{ay as t}from"./index-B29UDyg_.js";const d=e=>t.request("get","/models/getModel/"+e),r=e=>t.request("patch","/models",{data:e}),a=e=>t.request("post","/models",{data:e}),l=(e,s)=>t.request("put","/models",{data:{id:e,data:s}}),u=e=>t.request("delete","/models",{data:{ids:e}});export{r as a,a as b,u as d,l as e,d as g};
